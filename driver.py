@@ -9,11 +9,11 @@ today = date.today().strftime("%d/%m/%Y")
 
 with open("credentials.txt", "r") as f:
     data = f.readlines()
-    username = data[1].split("=")[1].split("\n")[0]
-    email = data[2].split("=")[1].split("\n")[0]
-    number = data[3].split("=")[1].split("\n")[0]
-    model = data[4].split("=")[1].split("\n")[0] 
-    description = ["My power went out and I couldn't charge my phone. I'm sorry!", "Even though we repeatedly snapped each other yesterday and today, our snapstreaks mysteriously vanished and the hourglass icon didn't show up either.", "I was out of town so I couldnt send my streak, kindly recover it", "I dont know what happened, I sent my streak but it is whoing me that i have no streaks anymore"]
+    username = data[3].split("=")[1].split("\n")[0]
+    email = data[4].split("=")[1].split("\n")[0]
+    number = data[5].split("=")[1].split("\n")[0]
+    model = data[6].split("=")[1].split("\n")[0] 
+    description = ["My power went out and I couldn't charge my phone. I'm sorry!","I have lost my snapstreak due to unavailability of internet connection. Please assist me in retrieving it.", "Even though we repeatedly snapped each other yesterday and today, our snapstreaks mysteriously vanished and the hourglass icon didn't show up either.", "I was out of town so I couldnt send my streak, kindly recover it", "There has been a fault in Snapchat recently, even though I exchanged snaps with a friend yet my snapstreak has disappeared. Kindly help me retrieve it"]
 
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
