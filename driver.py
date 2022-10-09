@@ -31,7 +31,7 @@ driver.find_element(By.CSS_SELECTOR, "#field-24369726").send_keys(model)
 driver.find_element(By.CSS_SELECTOR, "#field-24326423").send_keys(choice(["yesterday", "today", today]))
 driver.find_element(By.CSS_SELECTOR, "#field-24641746").send_keys("929079")
 driver.find_element(By.CSS_SELECTOR, "#field-22808619").send_keys(choice(description))
-driver.find_element(By.CSS_SELECTOR, "#field-24369736").send_keys("*some name*")
+driver.find_element(By.CSS_SELECTOR, "#field-24369736").send_keys(friend) #to be added automagically by main.py
 #click on a dropdown menu
 driver.find_element(By.CSS_SELECTOR, "div.page-container div.view-container:nth-child(1) div.ui.container.desktop-navigation:nth-child(3) div.sc-content:nth-child(2) div.fix-a-problem-wizard div.sc-wizard-content.wait-until-loaded.ready div.contact-form:nth-child(2) div:nth-child(2) form.ui.form div.field:nth-child(9) div.field.required > div.ui.dropdown.selection:nth-child(2)").click()
 driver.find_element(By.XPATH, "//div[contains(text(),'No')]").click()
