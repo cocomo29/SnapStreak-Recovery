@@ -40,7 +40,7 @@ Just run [main.py](main.py) whenever you need to recover streaks and the program
 If you are facing any problems, feel free to open an issue or contact me on discord: `cocomo#5215` </br>
 More often than not, the problem is with the web drivers. Make sure you have the correct version of web drivers installed and you are following the format specified in [credentials.txt](credentials.txt).
 
-# features in futute
+# Features in future
 If possible, I'll try to add captcha bypass but if you really need an immediate solution, you can use services like [2captcha](https://2captcha.com/).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
